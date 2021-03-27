@@ -237,6 +237,20 @@ h6 {
   padding-left: 30px;
 }
 
+.top__circle {
+  width: 350px;
+  height: 420px;
+  border-radius: 30%;
+  background: rgba(250, 0, 255, 0.1);
+  -webkit-filter: blur(40px);
+          filter: blur(40px);
+  -webkit-transform: rotate(-105.26deg);
+      -ms-transform: rotate(-105.26deg);
+          transform: rotate(-105.26deg);
+  position: absolute;
+  bottom: 220px;
+}
+
 .top__image img {
   width: 250px;
   padding: 18px;
@@ -387,6 +401,19 @@ h6 {
 .mission__info {
   width: 350px;
   margin-left: auto;
+  position: relative;
+}
+
+.mission__circle {
+  width: 70px;
+  height: 70px;
+  background: #F101BF;
+  opacity: 0.7;
+  -webkit-filter: blur(40px);
+          filter: blur(40px);
+  position: absolute;
+  right: 95px;
+  top: 0;
 }
 
 .mission__text {
@@ -445,6 +472,9 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .integration__info {
@@ -453,6 +483,19 @@ h6 {
 
 .integration__title {
   white-space: nowrap;
+}
+
+.integration__img-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.integration__img-one img {
+  margin: 1px;
 }
 
 .webp .scanner{ background: url(../image/fonIdScan.webp) no-repeat; }
