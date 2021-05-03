@@ -485,17 +485,69 @@ h6 {
   white-space: nowrap;
 }
 
-.integration__img-one {
+.integration__img__block-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin-bottom: 30px;
 }
 
-.integration__img-one img {
-  margin: 1px;
+.integration__img__block-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.integration__img__block-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  margin-top: -46px;
+}
+
+.integration__img__block-four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 30px;
+}
+
+.integration__img-three {
+  margin-right: 240px;
+}
+
+.integration__img-four {
+  position: absolute;
+  left: 260px;
+  top: 120px;
+}
+
+.integration__img-five {
+  margin-right: -30px;
+}
+
+.integration__img-six {
+  padding-right: 46px;
+}
+
+.integration__img-seven {
+  margin-right: -110px;
 }
 
 .webp .scanner{ background: url(../image/fonIdScan.webp) no-repeat; }
